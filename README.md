@@ -1,1 +1,1 @@
-# spring-ai
+# spring-ai app
