@@ -1,0 +1,16 @@
+### Test Spring AI Chat Endpoint
+GET http://localhost:8080/chat
+
+### Test with different prompt (if you modify the controller)
+# POST http://localhost:8080/chat
+# Content-Type: application/json
+# 
+# {
+#   "message": "What's the weather like today?"
+# }
+
+### Health check
+GET http://localhost:8080/actuator/health
+
+### Application info
+GET http://localhost:8080/actuator/info
