@@ -16,7 +16,7 @@ public class ChatController {
     @GetMapping("/chat")
     public String chat() {
         return chatClient.prompt()
-                .user("Tell me what the price of bitcoin is")
+                .user("Tell me what the price of bitcoin is today")
                 .call()
                 .content();
     }
